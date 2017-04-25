@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+	<div id="wrapper">
+		<h2>Items</h2>
+		<div id="miniList0" class="dragBox" @dragover.prevent @drop="drop">
+			<mini v-for="mini in getMinisByList(0)" :key="mini.uid" :mini="mini"></mini>
+		</div>
+
+		<div id="minisList1" class="dragBox" @dragover.prevent @drop="drop">
+			<mini v-for="mini in getMinisByList(1)" :key="mini.uid" :mini="mini"></mini>
+		</div>
+	</div>
+
+
+
+	<footer>
+		<script src="https://unpkg.com/jquery" ></script>
+		<script language="javascript" type="text/javascript" src="script.js"></script>
+	</footer>
+</body>
+</html>

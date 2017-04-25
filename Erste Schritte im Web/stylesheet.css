@@ -1,0 +1,142 @@
+body {
+    background-color: #ffffff;
+}
+.wort1 {
+	color: red;
+}
+::selection {
+	background-color: #ff35c8;
+	color: #237519;
+}
+#name {
+	width: 300px;
+	margin: 5px 5px 5px 5px;
+	background-color: rgba(221, 220, 221, 0.89);
+}
+#auswertung {
+	width: 300px;
+	margin: 5px 9px 5px 5px;
+	background-color: rgba(221, 220, 221, 0.89);
+}
+#lol {
+	width: 314px;
+	margin: 5px 5px 5px 5px;
+	height: 100px;
+	background-color: rgba(221, 220, 221, 0.89);
+}
+#date {
+	width: 299px;
+	margin: 5px 5px 5px 5px;
+	background-color: rgba(221, 220, 221, 0.89);
+}
+#comment {
+	width: 298px;
+	margin: 5px 5px 5px 5px;
+	background-color: rgba(221, 220, 221, 0.89);
+}
+#abschicken {
+	width: 300px;
+	margin: 5px 5px 5px 5px;
+}
+#abschicken {
+	border-top: 1px solid #b0cbf7;
+	background: #8784d6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#585b9c), to(#7b7cd6));
+	background: -webkit-linear-gradient(top, #545c9c, #767fd6);
+	background: -moz-linear-gradient(top, #41589c, #7f9ed6);
+	background: -ms-linear-gradient(top, #46539c, #8c9dd6);
+	background: -o-linear-gradient(top, #686a9c, #6a80d6);
+	padding: 9px 18px;
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	border-radius: 11px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #080708;
+	font-size: 14px;
+	font-family: Georgia, serif;
+	text-decoration: none;
+	vertical-align: middle;
+}
+#abschicken:hover {
+	border-top-color: #423f78;
+	background: #3e4378;
+	color: #ffffff;
+}
+#abschicken:active {
+	border-top-color: #2c2e5c;
+	background: #21235c;
+}
+#ab {
+	width: 313px;
+	margin: 5px 5px 5px 5px;
+	background-color: #ffffff;
+}
+#comment1 {
+	background-color: #939393;
+	width: 352px;
+	height: 800px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	float: left;
+}
+html {
+	padding-left: 300px;
+	background-color: #dddcdd;
+}
+body {
+	background-color: rgba(65, 152, 243, 1);
+	padding: 10px 10px 10px 10px;
+	width: 1052px;
+	border-radius: 5px;
+}
+#commentsection {
+	margin-left: 15px;
+	text-shadow: 3px 3px 5px black;
+
+}
+#nav {
+	list-style-type: none;
+	padding-left: 20px;
+	margin: 0;
+}
+.nav {
+	width: 80px;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: rgba(90, 103, 178, 0.89);
+	color: white;
+	border-color: rgba(76, 89, 178, 0.89);
+}
+.nav:hover {
+	background-color: rgba(28, 27, 68, 0.89);
+	border-color: rgba(29, 26, 68, 0.89);
+}
+#title {
+	color: #fff;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-left: 8px;
+	text-align: center;
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #000000, 0 0 70px #000000, 0 0 80px #ff00de , 0 0 100px #ff00de ;
+	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+#vid {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+#isaac {
+	margin-left: 440px;
+	margin-top: -58px;
+	text-shadow: 3px 3px 5px black;
+}
+#section {
+	background-color: #3a3c75;
+}

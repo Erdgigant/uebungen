@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+}
+header {
+	width: 100%;
+	background-image: url("img/Background-image2.jpg");
+	color: white;
+	height: 210px;
+	border: solid 2px #000000;
+}
+header li {
+	list-style-type: none;
+	float: left;
+}
+header a {
+	display: block;
+	width: 90px;
+	padding: 5px;
+	margin: 0;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px brown;
+	background-color: brown;
+}
+header a:hover {
+	background-color: #6e1d1d;
+	border-color: #6e1d1d;
+}
+h1.title {
+	margin-left: 20%;
+	margin-top: -3px;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+h2.title  {
+	margin-left: 10%;
+	margin-bottom: 3px;
+	padding-top: 50px;
+}
+table {
+	border-collapse: collapse;
+	border: solid 2px #000000;
+	text-align: center;
+	float: left;
+	clear: both;
+}
+tr, td, th {
+	border: solid 2px #000000;
+	background-color: burlywood;
+}
+tbody img {
+	width: 50px;
+	height: 50px;
+}
+tr td, tr th {
+	padding: 5px;
+	width: 100px;
+}
+#tablesection {
+	padding: 40px;
+	background-image: url("img/Holzhintergrund.jpg");
+	height: 100%;
+}
+#tablesection h2 {
+	margin-bottom: 10px;
+}
+#tablesection p {
+	margin-top: 0;
+	margin-left: 380px;
+}
+#tablesection h2:first-child {
+	float: left;
+}
+#Holzgeschichtentitel {
+	margin-left: 380px;
+}
+#info {
+	margin-left: 380px;
+}
+#tablesection li {
+	list-style-type: none;
+	margin-left: 380px;
+}
+#fakten {
+	margin-left: 380px;
+}

@@ -1,0 +1,251 @@
+html {
+	font-family: sans-serif; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+	margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+audio,
+canvas,
+progress,
+video {
+	display: inline-block; /* 1 */
+	vertical-align: baseline; /* 2 */
+}
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+[hidden],
+template {
+	display: none;
+}
+a {
+	background-color: transparent;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+b,
+strong {
+	font-weight: bold;
+}
+dfn {
+	font-style: italic;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+mark {
+	background: #ff0;
+	color: #000;
+}
+small {
+	font-size: 80%;
+}
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+img {
+	border: 0;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+figure {
+	margin: 1em 40px;
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+pre {
+	overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit; /* 1 */
+	font: inherit; /* 2 */
+	margin: 0; /* 3 */
+}
+button {
+	overflow: visible;
+}
+button,
+select {
+	text-transform: none;
+}
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button; /* 2 */
+	cursor: pointer; /* 3 */
+}
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+input {
+	line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+input[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	box-sizing: content-box; /* 2 */
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+legend {
+	border: 0; /* 1 */
+	padding: 0; /* 2 */
+}
+textarea {
+	overflow: auto;
+}
+optgroup {
+	font-weight: bold;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td,
+th {
+	padding: 0;
+}
+html {
+	background-image: url("img/Fell-Textur.jpg");
+}
+body {
+	width: 90%;
+	margin-left: 5%;
+}
+header {
+	margin-top: 50px;
+	width: 200px;
+	height: 100%;
+	background-color: rgba(226, 182, 126, 0.76);
+	padding: 10px;
+	padding-bottom: 565px;
+	float: left;
+}
+header li {
+	list-style-type: none;
+
+}
+header a {
+	text-decoration: none;
+	color: #000000;
+	border: solid 1px #ffffff;
+	display: block;
+	width: 100px;
+	margin: 10px;
+	background-color: #ffffff;
+	padding: 5px;
+}
+header a:hover {
+	padding: 10px 5px 10px 5px;
+	background-color: #000000;
+	color: #ffffff;
+	border-color: #000000;
+}
+#content {
+	margin-top: 50px;
+	margin-left: 20px;
+	background-color: rgba(226, 182, 126, 0.76);
+	padding-bottom: 45px;
+	width: 440px;
+	float: left;
+}
+#content h2 {
+	margin-left: 150px;
+	padding-top: 20px;
+}
+#content img {
+	width: 400px;
+	height: 400px;
+	margin-left: 20px;
+}
+#content1 {
+	margin-top: 50px;
+	background-color: rgba(226, 182, 126, 0.76);
+	width: 440px;
+	padding: 20px;
+	margin-left: 20px;
+	padding-bottom: 83px;
+	float: left;
+}
+#content1 h1 {
+	padding-top: 40px;
+}
+footer {
+	margin-top: 50px;
+	background-color: rgba(226, 182, 126, 0.76);
+	padding: 20px 20px 161px 20px;
+	float: left;
+	width: 420px;
+	margin-left: 20px;
+}
