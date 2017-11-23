@@ -1,7 +1,5 @@
 <template>
-	<div class="mini" draggable="true"
-		 :class="{hide: mini == $parent.miniStorage, dragEffect: dragEffect}"
-		 @dragenter="dragEffect = true" @dragleave="dragEffect = false" @dragstart="$parent.drag(mini, $event)">
+	<div class="mini" :class="{hide: mini == $parent.miniStorage, dragEffect: dragEffect}">
 
 		<p class="header">
 			<span @click="$parent.remove(mini)">X</span>

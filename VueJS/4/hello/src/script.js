@@ -1,11 +1,16 @@
 //Imports
 import $ from 'jQuery';
 import Vue from 'vue';
+import draggable from 'vuedraggable'
 import MiniComponent from './Mini.vue';
 
+//Css
 var node = document.createElement('style');
 node.innerHTML = require('./stylesheet.css').toString();
 document.body.appendChild(node);
+
+//dragula
+
 //Mini class
 var Mini = function(list){
 	this.list = list;
@@ -70,6 +75,7 @@ var app = new Vue({
 		}
 	},
 	components: {
-		Mini: MiniComponent
+		Mini: MiniComponent,
+		draggable: draggable
 	}
 });

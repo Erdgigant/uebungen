@@ -14,13 +14,19 @@ var app = new Vue({
 			new Mini(0),
 			new Mini(1)
 		],
-		miniStorage: null
+		miniStorage: null,
+		filterText: ''
 	},
 	methods: {
-		getMinisByList(list){
+		getMinisByList(list, filter = false){
 			return this.minis.filter(function(val){
-				return val.list == list;
-			});
+				if(filter && this.filterText != '' && val.name){
+					return (val.list == list && val.name.indexOf(this.filterText) !== -1);
+				}
+				else{
+					return val.list == list;
+				}
+			}, this);
 		},
 		add: function(mini) {
 			this.minis.splice(this.minis.indexOf(mini)+1, 0, new Mini(mini.list));

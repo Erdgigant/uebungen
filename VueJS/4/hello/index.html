@@ -3,17 +3,17 @@
 <body>
 <div id="wrapper">
   <h2>Items</h2>
-  <div id="miniList0" class="dragBox" @dragover.prevent @drop="drop">
+  <draggable id="miniList0" class="dragBox container" @drop="drop">
     <mini v-for="mini in getMinisByList(0)" :key="mini.uid" :mini="mini"></mini>
-  </div>
+  </draggable>
 
-  <div id="minisList1" class="dragBox" @dragover.prevent @drop="drop">
+  <draggable id="minisList1" class="dragBox container" @drop="drop">
     <mini v-for="mini in getMinisByList(1)" :key="mini.uid" :mini="mini"></mini>
-  </div>
+  </draggable>
 </div>
 
 <footer>
-  <script src="/dist/build.js"></script>
+  <script src="dist/build.js"></script>
 </footer>
 </body>
 </html>
